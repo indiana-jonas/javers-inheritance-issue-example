@@ -1,0 +1,15 @@
+javers:
+  mappingStyle: FIELD
+  algorithm: SIMPLE
+  prettyPrint: true
+  typeSafeValues: true
+  newObjectSnapshot: true
+  packagesToScan: com.replior.ebrmockupbackend.model
+  auditableAspectEnabled: true
+  springDataAuditableRepositoryAspectEnabled: true
+  sqlSchemaManagementEnabled: true
+  prettyPrintDateFormats:
+    localDateTime: "yyyy-MM-dd, HH:mm:ss"
+    zonedDateTime: "yyyy-MM-dd, HH:mm:ssZ"
+    localDate: "yyyy-MM-dd"
+    localTime: "HH:mm:ss"
